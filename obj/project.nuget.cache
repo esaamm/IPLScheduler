@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "9UavjkM8aGs=",
+  "success": true,
+  "projectFilePath": "/home/esaamhabib/Desktop/TeamSchedule/IPLScheduler/IPLScheduler.csproj",
+  "expectedPackageFiles": [
+    "/home/esaamhabib/.nuget/packages/microsoft.aspnetcore.openapi/8.0.14/microsoft.aspnetcore.openapi.8.0.14.nupkg.sha512",
+    "/home/esaamhabib/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/esaamhabib/.nuget/packages/microsoft.openapi/1.6.22/microsoft.openapi.1.6.22.nupkg.sha512",
+    "/home/esaamhabib/.nuget/packages/swashbuckle.aspnetcore/7.3.1/swashbuckle.aspnetcore.7.3.1.nupkg.sha512",
+    "/home/esaamhabib/.nuget/packages/swashbuckle.aspnetcore.swagger/7.3.1/swashbuckle.aspnetcore.swagger.7.3.1.nupkg.sha512",
+    "/home/esaamhabib/.nuget/packages/swashbuckle.aspnetcore.swaggergen/7.3.1/swashbuckle.aspnetcore.swaggergen.7.3.1.nupkg.sha512",
+    "/home/esaamhabib/.nuget/packages/swashbuckle.aspnetcore.swaggerui/7.3.1/swashbuckle.aspnetcore.swaggerui.7.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

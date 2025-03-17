@@ -1,0 +1,6 @@
+@IPLScheduler_HostAddress = http://localhost:5114
+
+GET {{IPLScheduler_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
