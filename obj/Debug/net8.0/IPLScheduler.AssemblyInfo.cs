@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPLScheduler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60162671cc518225b4bfd16b0e961913c55b80dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPLScheduler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPLScheduler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

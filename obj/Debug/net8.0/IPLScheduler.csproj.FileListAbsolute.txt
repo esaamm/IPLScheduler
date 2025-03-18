@@ -31,3 +31,4 @@
 /home/esaamhabib/Desktop/TeamSchedule/IPLScheduler/obj/Debug/net8.0/IPLScheduler.pdb
 /home/esaamhabib/Desktop/TeamSchedule/IPLScheduler/obj/Debug/net8.0/IPLScheduler.genruntimeconfig.cache
 /home/esaamhabib/Desktop/TeamSchedule/IPLScheduler/obj/Debug/net8.0/ref/IPLScheduler.dll
+/home/esaamhabib/Desktop/TeamSchedule/IPLScheduler/obj/Debug/net8.0/IPLScheduler.sourcelink.json

@@ -6,7 +6,7 @@ using System.Linq;
 namespace IPLScheduler.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class MatchController : ControllerBase
     {
         private readonly DataService _dataService;
@@ -40,11 +40,19 @@ namespace IPLScheduler.Controllers
             return Ok(_dataService.Matches);
         }
 
+        // [HttpGet("schedule")]
+        // public IActionResult GetSchedule()
+        // {
+        //     var teams = _dataService.Teams.Select(t => t.Name).ToList();
+        //     var schedule = _schedulingService.GenerateSchedule(teams);
+        //     return Ok(schedule);
+        // }
+
         [HttpGet("schedule")]
         public IActionResult GetSchedule()
         {
             var teams = _dataService.Teams.Select(t => t.Name).ToList();
-            var schedule = _schedulingService.GenerateSchedule(teams);
+            var schedule = IPLScheduler.Services.SchedulingService.GenerateSchedule(teams);
             return Ok(schedule);
         }
     }

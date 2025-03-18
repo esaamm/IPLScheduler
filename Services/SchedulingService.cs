@@ -6,7 +6,7 @@ namespace IPLScheduler.Services
 {
     public class SchedulingService
     {
-        public List<(string Team1, string Team2, DateTime MatchDate)> GenerateSchedule(List<string> teams)
+        public static List<(string Team1, string Team2, DateTime MatchDate)> GenerateSchedule(List<string> teams)
         {
             var schedule = new List<(string Team1, string Team2, DateTime MatchDate)>();
             var random = new Random();
